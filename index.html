@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./icon/css/all.css">
+</head>
+<body class="dark">
+<a href id="top"></a>
+  <!-- select theme site   -->
+  <div  class="theme_site relative dark:bg-[#23252B] acid:bg-[red]  h-[50px] w-[100%]  z-[200000] ">
+        <div class="fixed w-[100%] h-[50px] dark:bg-[#23252B] acid:bg-[green] synthwave:bg-[#red] bg-base-300 dark:bg-[#23252B] flex flex-row gap-x-5 p-2">
+              <button class="dark ">
+                  <span class="fa-solid fa-moon text-[24px] text-yellow-600"></span>
+              </button>
+              <button class="light">
+                  <span class="fa-solid fa-sun-bright text-[24px] text-yellow-600"></span>
+              </button>
+        </div>
+  </div>
+
+
+<header>
+  <!-- menu: logo and downloade & suport & account -->
+      <div class="relative z-[200000] light:bg-[rgb(35,37,43)] dark:bg-[#23252B]">
+        <div class="menu fixed font-[rubik] w-full h-[70px] bg-base-300 light:bg-[rgb(35,37,43)] dark:bg-[#23252B]  flex flex-row flex-wrap justify-between  dark:text-white px-5  ">
+                  <div class="menu-small 2xl:hidden xl:hidden lg:hidden md:block sm:block  block my-auto">
+                    <span class="fa-solid fa-bars my-auto cursor-pointer text-[25px]"  ></span>
+
+
+                  </div>
+                  <div class=" 2xl:my-auto 2xl:flex 2xl:flex-col  2xl:flex-nowrap 2xl:light:bg-[green]  2xl:light:bg-secondary 2xl:justify-items-start 2xl:dark:bg-black 2xl:dark:text-white
+                  2xl:justify-start
+                  xl:my-auto xl:flex xl:flex-col  xl:flex-nowrap xl:light:bg-[green]  xl:light:bg-secondary xl:justify-items-start xl:dark:bg-black xl:dark:text-white xl:justify-start
+
+                  lg:my-auto lg:flex lg:flex-col  lg:flex-nowrap lg:bg-[rgb(35,37,43)]  lg:light:bg-secondary lg:justify-items-start lg:dark:bg-black lg:dark:text-white
+                  md:my-auto md:flex md:flex-col  md:flex-nowrap    md:justify-items-center  md:dark:text-white
+                  sm:my-auto sm:flex sm:flex-col  sm:flex-nowrap    sm:justify-items-center  sm:dark:text-white
+                  my-auto flex flex-col flex-nowrap    justify-items-center  dark:text-white
+                  ">
+                      
+                      <svg class="w-[200px] text-white bg-base-300 " xmlns="http://www.w3.org/2000/svg" focusable="false" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" role="img" fill="currentColor" stroke-width="0" viewBox="0 0 196 32" aria-labelledby="blz-icon-title-battlenet-logo" part="icon blz-icon">
+                          <title id="blz-icon-title-battlenet-logo">Battle.net</title>
+                          <path fill="#148eff" d="M26.1931 11.8477C27.088 9.09269 27.2563 6.58059 26.6464 4.67728C26.6407 4.65986 26.6348 4.64192 26.629 4.62424C26.5924 4.52097 26.5014 4.30266 26.386 4.30266C26.2984 4.30266 26.2972 4.44878 26.3022 4.52306C26.304 4.53734 26.3058 4.55144 26.3075 4.56581C26.5019 6.26519 25.982 8.6902 24.937 11.229C22.7938 10.256 20.2196 9.47872 17.3645 9.0205C14.798 8.60826 12.3414 8.51726 10.1133 8.69926C10.3783 6.94651 11.0328 5.72755 12.1066 5.4704C13.5847 5.11651 15.1969 6.08868 16.7341 7.85798C16.9998 7.89432 17.2659 7.93379 17.5325 7.97641C18.291 8.09832 19.0355 8.24284 19.7661 8.40998C16.9634 3.13813 13.204 0.183488 10.3449 1.27417C8.16922 2.10353 7.05772 5.097 7.19017 9.12012C4.35684 9.72272 2.09718 10.833 0.753794 12.3128C0.741255 12.3266 0.728976 12.3405 0.716611 12.3544C0.645466 12.4377 0.50187 12.6256 0.559866 12.7256C0.603406 12.8014 0.730805 12.7294 0.792632 12.688C0.80404 12.6793 0.81536 12.6706 0.826942 12.6619C2.20151 11.6437 4.56156 10.8815 7.28265 10.5171C7.51159 12.8595 8.12594 15.4773 9.15636 18.1794C10.0825 20.608 11.232 22.7811 12.5037 24.6197C10.8532 25.2665 9.47046 25.3092 8.71086 24.5078C7.66528 23.4048 7.70072 21.5226 8.46477 19.3064C8.36341 19.0583 8.26451 18.8081 8.16809 18.5559C7.89436 17.8381 7.64729 17.1211 7.42686 16.405C4.26192 21.4681 3.58278 26.2012 5.95659 28.1321C7.76299 29.6015 10.9115 29.0674 14.3295 26.9414C16.268 29.0939 18.3593 30.4957 20.3125 30.9191C20.3307 30.9231 20.3489 30.9267 20.3672 30.9306C20.4749 30.9505 20.7094 30.9809 20.7671 30.8809C20.8107 30.805 20.685 30.7309 20.6182 30.698C20.6049 30.6925 20.592 30.687 20.5785 30.6812C19.0095 29.9999 17.1693 28.3372 15.493 26.1629C17.4073 24.7933 19.3672 22.9524 21.192 20.709C22.8323 18.6926 24.1393 16.6106 25.0957 14.59C26.4812 15.6959 27.2095 16.8721 26.8953 17.9307C26.4629 19.3877 24.8151 20.298 22.5139 20.7445C22.3497 20.9563 22.1824 21.167 22.0122 21.3766C21.5274 21.9726 21.03 22.5451 20.5198 23.0942C26.4869 23.3032 30.9253 21.5246 31.4106 18.5033C31.7801 16.2044 29.7434 13.745 26.1931 11.8477ZM21.0103 17.8736C18.9061 20.4605 16.283 22.663 13.9505 23.9364C13.0735 22.5271 12.2966 20.9986 11.7021 19.4397C10.5139 16.3239 9.91779 12.951 9.98145 10.2944C11.6403 10.2395 13.3526 10.3309 14.9999 10.5955C18.2922 11.1244 21.5112 12.2946 23.7801 13.6782C22.9981 15.1423 22.0635 16.5794 21.0103 17.8738V17.8736Z">
+                          </path>
+                          <path d="M75.3276 22.603L68.9716 9.91549C68.6538 9.30433 68.0182 8.9132 67.3337 8.9132H64.0335C63.349 8.9132 62.7134 9.30433 62.3956 9.91549L56.0886 22.603C55.9663 22.823 56.1374 23.0919 56.3819 23.0919H59.2177C59.4132 23.0919 59.5599 22.9941 59.6332 22.8475L61.0267 20.0606H70.3895L71.7829 22.8475C71.8563 23.0186 72.0029 23.0919 72.1985 23.0919H75.0343C75.2543 23.0919 75.401 22.823 75.3276 22.603ZM62.4201 17.2493L65.0603 11.9445C65.1336 11.8223 65.2558 11.7489 65.3781 11.7489H66.0381C66.1848 11.7489 66.307 11.8223 66.3559 11.9445L68.9961 17.2493H62.4201ZM195.676 9.25544V11.4067C195.676 11.5778 195.529 11.7489 195.333 11.7489H189.613V24.6076C189.613 24.8276 189.369 24.9254 189.222 24.8031L186.386 22.383C186.166 22.1874 186.044 21.9185 186.044 21.6496V11.7489H181.448C181.204 11.7489 180.959 11.6023 180.837 11.3578L179.737 9.15766C179.688 9.03543 179.761 8.9132 179.883 8.9132H195.284C195.504 8.9132 195.676 9.08432 195.676 9.25544ZM164.996 11.9934V14.6091H175.434C176.217 14.6091 176.852 15.2447 176.852 16.027C176.852 16.8093 176.217 17.4449 175.434 17.4449H164.996V19.4006C164.996 19.8895 165.411 20.3051 165.9 20.3051H177.659C177.83 20.3051 178.001 20.4517 178.001 20.6473V22.7986C178.001 22.9697 177.83 23.1408 177.659 23.1408H164.947C162.942 23.1408 161.329 21.5029 161.329 19.5228V10.7467C161.329 9.74436 162.136 8.93764 163.138 8.93764H177.659C177.83 8.93764 178.001 9.08432 178.001 9.27989V11.4311C178.001 11.6023 177.83 11.7734 177.659 11.7734H165.216C165.069 11.7489 164.996 11.8467 164.996 11.9934ZM158.249 9.35323V21.7963C158.249 23.2875 156.513 24.1187 155.34 23.1408L144.363 13.8269V22.6763C144.363 22.9208 144.168 23.1164 143.923 23.1164H141.161C140.916 23.1164 140.696 22.9208 140.696 22.6763V10.2577C140.696 8.76652 142.432 7.93535 143.605 8.9132L154.582 18.2272V9.37767C154.582 9.13321 154.777 8.9132 155.022 8.9132H157.784C158.102 8.9132 158.249 9.13321 158.249 9.35323ZM124.049 11.9934V14.6091H131.334C132.116 14.6091 132.751 15.2447 132.751 16.027C132.751 16.8093 132.116 17.4449 131.334 17.4449H124.073V19.4006C124.073 19.8895 124.489 20.3051 124.978 20.3051H136.736C136.907 20.3051 137.078 20.4517 137.078 20.6473V22.7986C137.078 22.9697 136.932 23.1408 136.736 23.1408H124.024C122.02 23.1408 120.406 21.5029 120.406 19.5228V10.7467C120.406 9.74436 121.213 8.93764 122.215 8.93764H136.736C136.907 8.93764 137.078 9.08432 137.078 9.27989V11.4311C137.078 11.6023 136.932 11.7734 136.736 11.7734H124.293C124.146 11.7489 124.049 11.8467 124.049 11.9934ZM118.866 20.5984V22.7497C118.866 22.9208 118.719 23.0919 118.524 23.0919H108.305C106.301 23.0919 104.687 21.454 104.687 19.4739V9.25544C104.687 9.08432 104.834 8.9132 105.03 8.9132H108.036C108.208 8.9132 108.379 9.05987 108.379 9.25544V19.3517C108.379 19.8406 108.794 20.2562 109.283 20.2562H118.524C118.744 20.2562 118.866 20.4273 118.866 20.5984ZM102.781 9.25544V11.4067C102.781 11.5778 102.634 11.7489 102.438 11.7489H97.1091V24.6076C97.1091 24.8276 96.8646 24.9254 96.7179 24.8031L93.8577 22.3585C93.6377 22.163 93.5155 21.8941 93.5155 21.6007V11.7245H90.0197C89.7752 11.7245 89.5308 11.5778 89.4085 11.3334L88.3085 9.13321C88.2596 9.03543 88.3329 8.9132 88.4796 8.9132H102.438C102.609 8.9132 102.781 9.05987 102.781 9.25544ZM52.1772 15.8559C52.8372 15.6114 54.1818 14.9758 54.1818 13.1668C54.1818 10.0622 51.8838 8.9132 49.1459 8.9132H38.5852C38.4385 8.9132 38.2429 9.05987 38.2429 9.25544V22.7497C38.2429 22.9208 38.3896 23.0919 38.5852 23.0919H50.466C52.2016 23.0675 54.6951 22.0896 54.6951 18.8872C54.7196 16.8826 52.9106 16.0515 52.1772 15.8559ZM41.8854 11.969C41.8854 11.8223 41.9832 11.7489 42.1054 11.7489H48.6081C49.2925 11.7489 50.7838 11.7489 50.7838 13.1668C50.7838 14.5847 49.2681 14.5847 48.6081 14.5847H41.8854V11.969ZM49.3903 20.2317H42.1054C41.9587 20.2317 41.8854 20.1339 41.8854 20.0117V17.4204H49.4148C50.1482 17.4204 51.3216 17.4204 51.3216 18.8383C51.3216 20.2806 49.977 20.2317 49.3903 20.2317ZM86.5484 9.25544V11.4067C86.5484 11.5778 86.4017 11.7489 86.2061 11.7489H82.0258V24.6076C82.0258 24.8276 81.7814 24.9254 81.6347 24.8031L78.7745 22.3585C78.5545 22.163 78.4323 21.8941 78.4323 21.6252V11.7245H73.8853C73.6408 11.7245 73.3964 11.5778 73.2741 11.3334L72.1741 9.13321C72.1496 9.03543 72.223 8.9132 72.3452 8.9132H86.2061C86.3528 8.9132 86.5484 9.05987 86.5484 9.25544Z">
+                          </path>
+                          <path fill="#148eff" d="M134.805 16.0029C134.805 15.025 135.587 14.2183 136.589 14.2183C137.567 14.2183 138.374 15.025 138.374 16.0029C138.374 16.9807 137.592 17.7875 136.589 17.7875C135.611 17.7875 134.805 17.0052 134.805 16.0029Z">
+                          </path>
+                        </svg>
+                  
+                  </div> 
+                  <div class="font-[rubik]  flex flex-row flex-nowrap  justify-items-end bg-base-300  ">
+                      <div class="btn 2xl:flex 2xl:flex-row 2xl:flex-nowrap 2xl:cursor-pointer 2xl:rounded-lg 2xl:justify-center 2xl:my-auto 2xl:px-4  2xl:hover:bg-slate-900
+                      xl:flex xl:flex-row xl:flex-nowrap xl:cursor-pointer xl:rounded-lg xl:justify-center xl:my-auto xl:px-4  xl:hover:bg-slate-900
+                      lg:flex lg:flex-row lg:flex-nowrap lg:cursor-pointer lg:rounded-lg lg:justify-center lg:my-auto lg:px-4  lg:hover:bg-slate-900
+                      md:hidden sm:hidden hidden 
+                      
+                      " style="cursor: pointer;">
+                          
+                              <svg class="w-6 h-[40px]   inline-block  dark:text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor" focusable="false" role="presentation" viewBox="0 0 24 24" part="icon blz-icon">
+                                  <path d="m18.06 9.646-.707-.707a.5.5 0 0 0-.707 0L13 12.586V4a1 1 0 1 0-2 0v8.586L7.353 8.939a.5.5 0 0 0-.707 0l-.707.707a.5.5 0 0 0 0 .708l5.707 5.707a.5.5 0 0 0 .707 0l5.708-5.707a.5.5 0 0 0 0-.708Z"></path>
+                                  <path d="M3.5 16a.5.5 0 0 0-.5.5V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V19H5v-2.5a.5.5 0 0 0-.5-.5h-1Z"></path>
+                                </svg>
+                                
+                                <h1 class="w-auto inline-block ml-4  text-size-14 light:bg-[rgb(217,64,32)] h-[40px] leading-[40px] inline-block dark:text-white dark:bg-back-page" style="margin-left: 8px; font-size: 16px;">
+                                  Download Battle.net
+                                </h1>
+                      
+                      </div>
+                      <div class="2xl:flex 2xl:flex-row 2xl:flex-nowrap 2xl:justify-center
+                      xl:flex xl:flex-row xl:flex-nowrap xl:justify-center
+                      lg:flex lg:flex-row lg:flex-nowrap lg:justify-center
+                      md:hidden sm:hidden hidden bg-base-300">
+                          <a href="#" class="btn
+                            light:text-black      dark:bg-black  border-none     
+                          
+                          w-auto rounded-lg  dark:text-white h-[40px] transform-none leading-[40px] text-size-16 no-underline decoration-0 px-4 my-auto hover:bg-slate-900" style=" font-weight: bold;">
+                              <span class="fa-regular fa-circle-question mr-4" style="margin-right: 4px; font-size: 20px;"></span>
+                              Support
+                          </a>
+                      </div>
+
+<div class="user_small my-auto 2xl:hidden xl:hidden lg:hidden">
+  
+  <span class="fa-regular fa-circle-user my-auto cursor-pointer dark:bg-black text-[25px] " ></span>
+
+</div>
+
+                      
+                            <div class="dropdown dropdown-hover dropdown-end my-auto bg-base-300 light:text-black dark:text-white dark:bg-black   z-[60000000] md:hidden sm:hidden hidden xl:block lg:block 2xl:block" >
+                              <label tabindex="0" class="btn  w-auto  light:text-black dark:text-white h-[40px]    dark:bg-black transform-none leading-[40px] border-none text-size-16  no-underline decoration-0 px-4 my-auto hover:bg-slate-900 " style=" font-weight: bold;">
+                                  <span class="fa-regular fa-circle-user mr-[4px] dark:bg-black text-[20px]" style="margin-right: 4px; "></span>
+                                  <span class="md:hidden xl:block lg:block">Account</span> 
+                                  <span class="ml-2 w-2 md:hidden">
+                                      <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                        class="h-5 w-5">
+                                        <path
+                                          fill-rule="evenodd"
+                                          d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                          clip-rule="evenodd" />
+                                      </svg>
+                                    </span>
+                              </label>
+                              <div class="z-[60000000]">
+                                <ul tabindex="0" class="dropdown-content menu z-[2000]  bg-base-100   p-6   float-left m-0  min-w-max list-none overflow-hidden  border-none  bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block">
+                                <li>
+                                    <a href="#" class="btn btn-primary bg-[#0074e0] hover:bg-[#0074e0] hover:border-2 hover:border-[#0074e0] text-white">
+                                        Log In
+                                    </a>
+                                </li>
+                              <li>
+                                <div>
+                                    <span class="fa-solid fa-user-gear"></span>
+                                    Account Settings
+                                </div>
+                              </li>
+                              <li>
+                                <div>
+                                    <span class="fa-regular fa-heart"></span>
+                                    Wish List
+                                </div>
+                                
+                              </li>
+                              <li>
+                                <div>
+                                    <span class="fa-light fa-barcode"></span>
+                                    Redeem Code
+                                </div>
+                                
+                              </li>
+                  
+                              <li>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" class="w-[16px]" fill="currentColor" viewBox="0 0 24 24" part="icon blz-icon">
+                                    <path d="M13.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5H15v16h-1.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H17v-3h3a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3V4h1.5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-5ZM17 9h3v6h-3V9ZM4 7h9v2H4v6h9v2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z"></path>
+                                  </svg>
+                                    Change BattleTag
+                                </div>
+                                
+                              </li>
+                              <li>
+                                <div>
+                                    <span class="fa-solid fa-pen"></span>
+                                    Create Account
+                                </div>
+                              </li>
+                              </ul>
+                            </div>
+            
+                            </div>
+
+
+                  </div>
+        </div>
+      </div>
+         
+</header>
+
+<div class="relative z-[200] ">
+
+      <div class="fixed top-[120px] bg-base-300 light:bg-[rgb(35,37,43)] 2xl:flex 2xl:flex-row 2xl:h-[55px] 2xl:justify-between 
+
+      xl:flex xl:flex-row xl:h-[55px] xl:justify-between  w-[100%]
+      lg:flex lg:flex-row lg:h-[55px] lg:justify-between
+      dark:bg-dark md:justify-center sm:justify-center justify-center " >
+          <div class="big-menu  2xl:flex 2xl:flex-row 2xl:flex-nowrap  2xl:dark:bg-dark-bg 
+          xl:flex xl:flex-row xl:flex-nowrap  xl:dark:bg-dark-bg 
+          lg:flex lg:flex-row lg:flex-nowrap  lg:dark:bg-dark-bg 
+          2xl:justify-start xl:justify-start  lg:justify-start
+          md:hidden sm:hidden hidden">
+          <!-- md:flex md:flex-row md:flex-nowrap  md:dark:bg-dark-bg md:relative
+          md:w-[98%] md:justify-center -->
+            <div class="dropdown dropdown-hover  ">
+                  
+              <label tabindex="0" class="btn m-1">
+                  Warcraft  
+                  <span class="ml-2 w-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="h-5 w-5">
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </span>
+              </label>
+          
+          <ul
+            class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+            aria-labelledby="dropdownMenuButton1"
+            data-te-dropdown-menu-ref>
+            <li>
+
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/world-of-warcraft.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          World of Warcraft
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Massively Multiplayer RPG</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/WOW_WClassic_Icon_Vector_Blue_(2).svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          World of Warcraft Classic
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Massively Multiplayer RPG</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/warcraft-iii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          Warcraft III
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Real-time Strategy</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/hearthstone.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          Hearthstone
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Strategy Card Game</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+            </div>
+
+
+            <div class="dropdown dropdown-hover ">
+                
+            <label tabindex="0" class="btn m-1">
+                Call of Duty  
+                <span class="ml-2 w-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+            </label>
+          
+          <ul
+            class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"
+            aria-labelledby="dropdownMenuButton2" tabindex="0"
+            data-te-dropdown-menu-ref>
+            <li>
+
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/codwz2.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          Warzone 2.0
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Free-To-Play Action Shooter</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="flex flex-row flex-wrap">
+                  <div class="flex flex-col ">
+                      <img src="./image/MWII_LOGO_SQUARE_SVG.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600  dark:text-white"
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          Modern Warfare II
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action Shooter</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            <li>
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/warcraft-iii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          Black Ops Cold War
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action Shooter</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="flex flex-row flex-wrap ">
+                  <div class="flex flex-col ">
+                      <img src="./image/VanguardGold.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                  </div>
+                  <div class="flex flex-col">
+                      <div>            
+                          <a
+                          class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                          href="#"
+                          data-te-dropdown-item-ref>
+                          Vanguard
+                          </a> 
+                      </div>
+                      <div>
+                          <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action Shooter</span>
+                      </div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+            </div>
+
+            <div class="dropdown dropdown-hover ">
+            <label tabindex="0" class="btn m-1">
+                Diablo  
+                <span class="ml-2 w-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+            </label>
+            <ul tabindex="0" class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block">
+              <li>
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            Diablo IV
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action RPG</span>
+                        </div>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/D_Immortal_Icon_Small_BlizzCon_PF08.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent  py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            Diablo Immortal
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action RPG</span>
+                        </div>
+                    </div>
+                </div>
+
+              </li>
+              <li>
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/diablo3.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                        
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            Diablo III
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action RPG</span>
+                        </div>
+                    </div>
+                </div>
+
+              </li>
+
+
+            </ul>
+            </div>
+
+            <div class="dropdown dropdown-hover ">
+            <label tabindex="0" class="btn m-1">
+                Overwatch   
+                <span class="ml-2 w-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+            </label>
+            <ul tabindex="0" class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block">
+              <li>
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/Overwatch2_(1).svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            Overwatch 2
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Team-Based Action Game</span>
+                        </div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+            </div>
+
+            <div class="lg:hidden xl:block 2xl:block">
+              <div class="dropdown dropdown-hover ">
+              <label tabindex="0" class="btn m-1">
+                  StarCraft    
+                  <span class="ml-2 w-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="h-5 w-5">
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </span>
+              </label>
+              <ul tabindex="0" class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block">
+                <li>
+                  <div class="flex flex-row flex-wrap  dark:text-white">
+                      <div class="flex flex-col  flex-nowrap">
+                          <img src="./image/starcraft-ii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                      </div>
+                      <div class="flex flex-col flex-nowrap">
+                          <div>            
+                              <a
+                              class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                              href="#"
+                              data-te-dropdown-item-ref>
+                              StarCraft II
+                              </a> 
+                          </div>
+                          <div>
+                              <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">TReal-time Strategy</span>
+                          </div>
+                      </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="flex flex-row flex-wrap  dark:text-white">
+                      <div class="flex flex-col  flex-nowrap">
+                          <img src="./image/star2.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                      </div>
+                      <div class="flex flex-col flex-nowrap">
+                          <div>            
+                              <a
+                              class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                              href="#"
+                              data-te-dropdown-item-ref>
+                              StarCraft 
+                              </a> 
+                          </div>
+                          <div>
+                              <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">TReal-time Strategy</span>
+                          </div>
+                      </div>
+                  </div>
+                </li>
+              </ul>
+              </div>
+            </div>
+            
+            <div class="dropdown dropdown-hover">
+            <label tabindex="0" class="btn m-1">
+                More    
+                <span class="ml-2 w-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-5 w-5">
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+            </label>
+
+            <ul tabindex="0" class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block ">
+              
+              <div class="flex flex-row 2xl:hidden xl:hidden"><span>StarCraft</span></div>
+              <li class="xl:hidden 2xl:hidden">
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/starcraft-ii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            StarCraft II
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">TReal-time Strategy</span>
+                        </div>
+                    </div>
+                </div>
+              </li>
+
+              <li class="2xl:hidden xl:hidden">
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/star2.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            StarCraft 
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">TReal-time Strategy</span>
+                        </div>
+                    </div>
+                </div>
+              </li>
+            <!-- </ul>
+
+            <ul tabindex="0" class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block"> -->
+              <div class="flex flex-row 2xl:hidden xl:hidden"><span>OTHER</span></div>
+              <li>
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/blizzard-arcade.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            Blizzard Arcade Collection
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Bundles</span>
+                        </div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="flex flex-row flex-wrap  dark:text-white">
+                    <div class="flex flex-col  flex-nowrap">
+                        <img src="./image/crash-bandicoot-4.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                    </div>
+                    <div class="flex flex-col flex-nowrap">
+                        <div>            
+                            <a
+                            class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                            href="#"
+                            data-te-dropdown-item-ref>
+                            Crash Bandicoot 4 
+                            </a> 
+                        </div>
+                        <div>
+                            <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Platformer</span>
+                        </div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+            </div>
+
+          </div>
+
+          <div class="back-search   top-[-10px]  2xl:flex-row 2xl:flex-nowrap  2xl:dark:bg-dark-bg 2xl:relative 2xl:h-[55px] 2xl:justify-items-start 
+          xl:flex-row xl:flex-nowrap  xl:dark:bg-dark-bg  xl:h-[55px]
+          lg:flex-row lg:flex-nowrap  lg:dark:bg-dark-bg  
+           2xl:justify-start xl:justify-start xl:justify-items-start  lg:justify-start lg:justify-items-start
+           md:flex md:flex-row md:flex-nowrap   md:relative md:mt-[10px] 
+          md:w-full md:justify-center md:items-center md:justify-items-center
+           md:mx-auto my-auto
+           sm:flex sm:flex-row sm:flex-nowrap   sm:relative sm:mt-[10px] 
+          sm:w-full sm:justify-center sm:items-center sm:justify-items-center
+           sm:mx-auto 
+           
+           flex flex-row flex-nowrap  mt-[10px] 
+          w-full justify-center items-center relative justify-items-center
+           mx-auto 
+           
+          2xl:hidden xl:hidden lg:hidden ">
+          <input type="search" name="search" placeholder="search SHOP" class="
+          
+          w-[100%]  pl-[40px] my-auto h-[50px] rounded-lg  mt-1 
+          border-none justify-center mx-auto 
+          2xl:w-[100%]  2xl:pl-[40px] 2xl:my-auto 2xl:h-[50px] 2xl:rounded-lg 2xl:mt-1  2xl:flex  2xl:border-2  
+          xl:w-[90%]  xl:pl-[40px] xl:my-auto xl:h-[50px] xl:rounded-lg   xl:flex xl:mt-1 
+          xl:border-2  
+          lg:w-[90%]  lg:pl-[40px] lg:my-auto lg:h-[50px] lg:rounded-lg  lg:border-2 lg:flex lg:mt-1 
+          lg:justify-start
+          md:w-[100%]  md:pl-[40px] md:my-auto md:h-[50px] md:rounded-lg  md:mt-1 
+          md:border-none md:justify-center md:mx-auto
+          sm:w-[100%]  sm:pl-[40px] sm:my-auto sm:h-[50px] sm:rounded-lg  sm:mt-1 
+          sm:border-none sm:justify-center sm:mx-auto  " />
+          <span class="fa-light fa-search absolute 2xl:left-[70px] 2xl:top-[35%] xl:left-[70px] xl:top-[35%] lg:left-[60px] lg:top-[35%]
+          md:left-[20px]  my-auto top-[45%] left-[20px]
+          md:top-[45%] sm:top-[45%] sm:left-[20px]"></span>
+                     <div class="searchfullwidth 2xl:w-[700px] 2xl:h-[55px] 2xl:z-50  2xl:ml-[10px] 2xl:my-auto
+                 xl:w-[700px] xl:h-[55px] xl:z-50    xl:ml-[10px]   xl:my-auto
+                 lg:w-[700px] lg:h-[55px] lg:z-50     lg:my-auto
+                 top-[120px] pr-5 pl-5
+                 md:w-[100%] md:h-[55px] md:z-50  md:hidden md:flex-row md:justify-center md:justify-items-center md:items-center md:ml-[5px] 
+                 md:mt-3 md:content-center 
+
+                 
+                 sm:w-[100%] sm:h-[55px] sm:z-50  sm:hidden sm:flex-row sm:justify-center sm:justify-items-center sm:items-center sm:ml-[5px] 
+                 sm:mt-3 sm:content-center
+                 
+                 w-[100%] h-[55px] z-50  flex-row justify-center justify-items-center items-center ml-[5px] 
+                 mt-3 content-center
+
+                 2xl:hidden xl:hidden lg:hidden hidden">
+                   <input type="search" name="search" placeholder="search SHOP" class="2xl:w-[100%]  2xl:pl-[40px] 2xl:my-auto 2xl:h-[50px] 2xl:rounded-lg 2xl:mt-1   2xl:border-2  2xl:flex
+                   xl:w-[90%]  xl:pl-[40px] xl:my-auto xl:h-[50px] xl:rounded-lg   xl:flex xl:mt-1 
+                   xl:border-2  
+                   lg:w-[90%]  lg:pl-[40px] lg:my-auto lg:h-[50px] lg:rounded-lg  lg:border-2 lg:flex lg:mt-1 
+                   lg:justify-start
+                   md:w-[100%]  md:pl-[40px] md:my-auto md:h-[50px] md:rounded-lg  md:mt-1 
+                   md:border-none md:justify-center md:mx-auto 
+                   sm:w-[100%]  sm:pl-[40px] sm:my-auto sm:h-[50px] sm:rounded-lg  sm:mt-1 
+                   sm:border-none sm:justify-center sm:mx-auto
+                   
+                   w-[100%]  pl-[40px] my-auto h-[50px] rounded-lg  mt-1 
+                   border-none justify-center mx-auto
+                   hidden z-0" />
+                   <span class="fa-light fa-search absolute 2xl:left-[70px] xl:left-[70px] lg:left-[60px] md:left-[20px] top-[35%] my-auto sm:left-[20px] sm:top-[45%]
+                   md:top-[45%] hidden"></span>
+                     </div>
+         </div>
+     
+
+
+         <!-- btn search and droupdown balance  -->
+         <div class="2xl:flex 2xl:flex-row 2xl:flex-nowrap  2xl:my-auto 2xl:justify-between  
+         xl:flex xl:flex-row xl:flex-nowrap  xl:my-auto xl:justify-between
+         lg:flex lg:flex-row lg:flex-nowrap  lg:my-auto lg:content-center lg:items-center
+         md:hidden  sm:hidden hidden z-[1] " >
+               <a class="search-btn btn my-auto items-center ">
+                 <span class="w-full my-auto fa-solid fa-magnifying-glass items-end"></span>
+               </a>
+               <div class=" my-auto w-[215px] flex flex-row justify-end z-0">
+                   <div class="dropdown dropdown-hover dropdown-end  z-0">
+                     <label tabindex="0" class="btn m-1">
+                         Battle.net Balance    
+                         <span class="ml-2 w-2">
+                           <svg
+                             xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 20 20"
+                             fill="currentColor"
+                             class="h-5 w-5">
+                             <path
+                               fill-rule="evenodd"
+                               d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                               clip-rule="evenodd" />
+                           </svg>
+                         </span>
+                     </label>
+                     <ul tabindex="0" class="dropdown-content menu p-2  z-[1000] float-left m-0  min-w-max list-none overflow-hidden rounded-box border-none bg-base-100 bg-clip-padding text-left  shadow-lg dark:text-white dark:bg-neutral-700 [&[data-te-dropdown-show]]:block">
+                           <li>
+                             <div class="flex flex-row flex-wrap  dark:text-white">
+                                 <div class="flex flex-col  flex-nowrap">
+                                   <span class="fa-solid fa-circle-plus"></span>
+                                 </div>
+                                 <div class="flex flex-col flex-nowrap">
+                                     <div>            
+                                         <a
+                                         class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                         href="#"
+                                         data-te-dropdown-item-ref>
+                                         Add Balance
+                                         </a> 
+                                     </div>
+                     
+                                 </div>
+                             </div>
+                           </li>
+                     
+                           <li>
+                             <div class="flex flex-row flex-wrap  dark:text-white">
+                                 <div class="flex flex-col  flex-nowrap">
+                                   <span class="fa-solid fa-gift"></span>
+                                 </div>
+                                 <div class="flex flex-col flex-nowrap">
+                                     <div>            
+                                         <a
+                                         class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                         href="#"
+                                         data-te-dropdown-item-ref>
+                                         Gift Balance
+                                         </a> 
+                                     </div>
+                                     
+                                 </div>
+                             </div>
+                           </li>
+                     
+                     
+                           <li>
+                             <div class="flex flex-row flex-wrap  dark:text-white">
+                                 <div class="flex flex-col  flex-nowrap">
+                                   <span class="fa-solid fa-clock-rotate-left"></span>
+                                 </div>
+                                 <div class="flex flex-col flex-nowrap">
+                                     <div>            
+                                         <a
+                                         class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                         href="#"
+                                         data-te-dropdown-item-ref>
+                                         Balance History
+                                         <!-- <span class="fa-solid fa-share-from-square ml-11"></span> -->
+                                         </a> 
+                                     </div>
+                                     
+                                 </div>
+                                 <div class="flex flex-col justify-end flex-nowrap ml-8 " style="justify-content: end; justify-self: end; justify-items: end;">
+                                   <span class="fa-solid fa-share-from-square "></span>
+                                 </div>
+                             </div>
+                           </li>
+                     
+                           <li>
+                             <div class="flex flex-row flex-wrap  dark:text-white">
+                                 <div class="flex flex-col  flex-nowrap">
+                                   <span class="fa-regular fa-circle-question"></span>
+                                 </div>
+                                 <div class="flex flex-col flex-nowrap">
+                                     <div>            
+                                         <a
+                                         class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                         href="#"
+                                         data-te-dropdown-item-ref>
+                                         Balance Help
+                                         </a> 
+                                     </div>
+                                     
+                                 </div>
+                                 
+                                 <div class="flex flex-col justify-end flex-nowrap ml-12 " style="justify-content: end; justify-self: end; justify-items: end;">
+                                   <span class="fa-solid fa-share-from-square "></span>
+                                 </div>
+                             </div>
+                           </li>
+                     </ul>
+                   </div>
+                 
+               </div>
+         </div>
+       
+      </div>
+<!-- menu in md and sm size -->
+      <div class="menufullwidth w-[100%] fixed top-[120px] z-[10000] h-calc hidden  " style="
+      backdrop-filter: blur(5px);" >
+            <div class="submenu absolute w-[60%] bg-base-300 h-[100%] left-[-700px] top-0 justify-start  justify-items-start transition-transform transition-[300ms] " style="align-items: start; justify-content: left; font-size: 10px; overflow: scroll;">
+
+              
+                    <!-- Accordion (start) -->
+                    <div class="accordion w-[100%] text-[12px]" style="align-items: start; align-content: start; ">
+                      <!-- Accordion section 1 -->
+                    <div class="accordion-headsection py-7 mt-5 h-[70px] text-[12px]" style="align-items: start; align-content: start; justify-content: left;">Warcraft</div>
+                    <div id="accordioncontent_1  text-[12px]" class="accordion-content hide-content">
+                          
+                            <div class="flex flex-row flex-wrap  hover:bg-[#2a303c]">
+                              <div class="flex flex-col ">
+                                  <img src="./image/world-of-warcraft.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                              </div>
+                              <div class="flex flex-col">
+                                  <div>            
+                                      <a
+                                      class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                                      href="#"
+                                      data-te-dropdown-item-ref>
+                                      World of Warcraft
+                                      </a> 
+                                  </div>
+                                  <div>
+                                      <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Massively Multiplayer RPG</span>
+                                  </div>
+                              </div>
+                          </div>
+
+
+
+                          <div class="flex flex-row flex-wrap hover:bg-[#2a303c] ">
+                            <div class="flex flex-col ">
+                                <img src="./image/WOW_WClassic_Icon_Vector_Blue_(2).svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    World of Warcraft Classic
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Massively Multiplayer RPG</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] ">
+                            <div class="flex flex-col ">
+                                <img src="./image/warcraft-iii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Warcraft III
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Real-time Strategy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                    
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] ">
+                            <div class="flex flex-col ">
+                                <img src="./image/hearthstone.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Hearthstone
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Strategy Card Game</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+
+                    <!-- Accordion section 2 -->
+                    <div class="accordion-headsection">Call of Duty</div>
+                    <div id="accordioncontent_2" class="accordion-content hide-content">
+                      
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c]">
+                            <div class="flex flex-col ">
+                                <img src="./image/codwz2.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white "
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Warzone 2.0
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Free-To-Play Action Shooter</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c]">
+                            <div class="flex flex-col ">
+                                <img src="./image/MWII_LOGO_SQUARE_SVG.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Modern Warfare II
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action Shooter</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c]">
+                            <div class="flex flex-col ">
+                                <img src="./image/warcraft-iii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Black Ops Cold War
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action Shooter</span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] ">
+                            <div class="flex flex-col ">
+                                <img src="./image/VanguardGold.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Vanguard
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action Shooter</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+
+                    </div>
+
+                    <!-- Accordion section 3 -->
+                    <div class="accordion-headsection">Diablo</div>
+                    <div id="accordioncontent_3" class="accordion-content hide-content">
+                      
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c]  dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Diablo IV
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action RPG</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/D_Immortal_Icon_Small_BlizzCon_PF08.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent  py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Diablo Immortal
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action RPG</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/diablo3.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                                
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Diablo III
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Action RPG</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+
+                    </div>
+
+                    <!-- Accordion section 4 -->
+                    <div class="accordion-headsection">Overwatch</div>
+                    <div id="accordioncontent_4" class="accordion-content hide-content">
+                      
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/Overwatch2_(1).svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Overwatch 2
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Team-Based Action Game</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+
+                    </div>
+
+                    <!-- Accordion section 5 -->
+                    <div class="accordion-headsection">StarCraft</div>
+                    <div id="accordioncontent_5" class="accordion-content hide-content">
+                    
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/starcraft-ii.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    StarCraft II
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">TReal-time Strategy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/star2.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    StarCraft 
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">TReal-time Strategy</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+
+                    <!-- Accordion section 6 -->
+                    <div class="accordion-headsection">Other</div>
+                    <div id="accordioncontent_6" class="accordion-content hide-content">
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/blizzard-arcade.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Blizzard Arcade Collection
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Bundles</span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] dark:text-white">
+                            <div class="flex flex-col  flex-nowrap">
+                                <img src="./image/crash-bandicoot-4.svg" class="w-[40px] h-[40px]  my-auto"></img>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-4 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Crash Bandicoot 4 
+                                    </a> 
+                                </div>
+                                <div>
+                                    <span class="block w-full whitespace-nowrap bg-transparent px-4 py-0  text-[10px] font-normal   active:text-neutral-800 active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400 dark:text-neutral-200 dark:hover:text-neutral-600">Platformer</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+
+                    <!-- Accordion section 7 -->
+                    <div class="accordion-headsection ">Battle.net Balance </div>
+                    <div id="accordioncontent_7" class="accordion-content hide-content">
+
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] gap-x-4 dark:text-white">
+                            <div class="flex flex-col  flex-nowrap my-auto">
+                              <span class="fa-solid fa-circle-plus my-auto"></span>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Add Balance
+                                    </a> 
+                                </div>
+
+                            </div>
+                        </div>
+                    
+                        
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] gap-x-4 dark:text-white">
+                            <div class="flex flex-col  flex-nowrap my-auto">
+                              <span class="fa-solid fa-gift my-auto"></span>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Gift Balance
+                                    </a> 
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] gap-x-4 dark:text-white">
+                            <div class="flex flex-col  flex-nowrap my-auto">
+                              <span class="fa-solid fa-clock-rotate-left my-auto"></span>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Balance History
+                                    <!-- <span class="fa-solid fa-share-from-square ml-11"></span> -->
+                                    </a> 
+                                </div>
+                                
+                            </div>
+                            <div class="flex flex-col justify-end flex-nowrap my-auto" style="justify-content: end; justify-self: end; justify-items: end;">
+                              <span class="fa-solid fa-share-from-square my-auto "></span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="flex flex-row flex-wrap hover:bg-[#2a303c] gap-x-4 dark:text-white">
+                            <div class="flex flex-col  flex-nowrap my-auto">
+                              <span class="fa-regular fa-circle-question my-auto"></span>
+                            </div>
+                            <div class="flex flex-col flex-nowrap">
+                                <div>            
+                                    <a
+                                    class="block w-full whitespace-nowrap bg-transparent px-0 py-2 text-sm font-normal   active:no-underline disabled:pointer-events-none disabled:bg-transparent disabled:text-neutral-400  dark:hover:text-neutral-600  dark:text-white"
+                                    href="#"
+                                    data-te-dropdown-item-ref>
+                                    Balance Help
+                                    </a> 
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="flex flex-col justify-end flex-nowrap  " style="justify-content: end; justify-self: end; justify-items: end;">
+                              <span class="fa-solid fa-share-from-square my-auto"></span>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    </div>
+                    <!-- Accordion (end) -->
+
+
+                
+            </div>
+            <div class="acc_user absolute w-[50%] bg-base-300 h-[100%] right-[-700px] top-0 justify-start  justify-items-start transition-transform transition-[300ms] " style="align-items: start; justify-content: left; font-size: 10px;">
+              <div class="flex flex-col flex-nowrap w-[100%] h-[100%] p-5">
+                <div class="flex flex-row  w-[100%] justify-center">
+                  <a href="#" class="btn btn-primary  w-[100%] text-[18px] bg-[#0074e0] hover:bg-[#0074e0] hover:border-2 hover:border-[#0074e0] text-white  ">
+                    Log In
+                  </a>
+                </div>
+                <div class="flex flex-row mt-5 w-[100%] h-[40px] text-[18px] leading-[40px] gap-x-4 cursor-pointer hover:bg-[#2a303c]">
+
+                  <span class="fa-solid fa-user-gear my-auto"></span>
+                  Account Settings
+                </div>
+                
+                <div class="flex flex-row  w-[100%]  h-[40px] text-[18px] leading-[40px] gap-x-4 cursor-pointer hover:bg-[#2a303c]">
+
+                    <span class="fa-regular fa-heart my-auto"></span>
+                    Wish List
+                
+                </div>
+                
+                <div class="flex flex-row  w-[100%]  h-[40px] text-[18px] leading-[40px] gap-x-4 cursor-pointer hover:bg-[#2a303c]">
+                  
+                  <span class="fa-light fa-barcode my-auto"></span>
+                  Redeem Code
+                </div>
+                
+                <div class="flex flex-row  w-[100%]  h-[40px] text-[18px] leading-[40px] gap-x-4 cursor-pointer hover:bg-[#2a303c]">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-[16px] my-auto" fill="currentColor" viewBox="0 0 24 24" part="icon blz-icon">
+                    <path d="M13.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5H15v16h-1.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H17v-3h3a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3V4h1.5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-5ZM17 9h3v6h-3V9ZM4 7h9v2H4v6h9v2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z"></path>
+                  </svg>
+                    Change BattleTag
+                </div>
+                
+                <div class="flex flex-row  w-[100%]  h-[40px] text-[18px] leading-[40px] gap-x-4 cursor-pointer hover:bg-[#2a303c]">
+                  
+                  <span class="fa-solid fa-pen my-auto"></span>
+                  Create Account
+                </div>
+             
+              </div>
+
+
+            </div>
+      </div>
+
+  
+
+</div> 
+
+
+   
+
+
+
+
+
+    <div class="carousel w-full mt-7 mb-7 top-[100px] relative ">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="./image/slide-1.webp" class="w-full hidden 2xl:block  xl:block  lg:block md:hidden sm:hidden" />
+          
+          <img src="./image/slide-small-1.webp" class="w-full block 2xl:hidden xl:hidden lg:hidden md:block sm:block" />
+          <DIV class="
+          
+          absolute flex flex-col w-1/3 justify-center left-[35%] top-[20%]
+          2xl:absolute 2xl:flex 2xl:flex-col 2xl:w-1/3 2xl:justify-center 2xl:left-[100px] 2xl:mt-0
+          xl:absolute xl:flex xl:flex-col xl:w-1/3 xl:justify-center xl:left-[100px] xl:mt-0
+          
+          lg:absolute lg:flex lg:flex-col lg:w-1/4 lg:justify-center lg:left-[100px] 
+          
+          md:absolute md:flex md:flex-col md:w-1/3 md:justify-center md:left-[35%] md:top-[20%]
+          
+          sm:absolute sm:flex sm:flex-col sm:w-1/3 sm:justify-center sm:left-[35%] sm:top-[20%] ">
+            <img src="./image/Diablo_IV_Logo.webp" alt="Diablo_IV_Logo">
+            <h1 class="text-[20px] text-white text-center mb-3">  For a limited time, try Dragonflight free  </h1>
+            <a href="#" class=" btn btn-primary bg-[#0074e0] hover:bg-[#47a6ff] hover:border-[#0074e0] hover:border-2 border-[#0074e0] px-2">  Learn More </a>
+          </DIV>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-square ">❮</a> 
+            <a href="#slide2" class="btn btn-square ">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./image/slide.webp" class="w-full hidden 2xl:block  xl:block  lg:block md:hidden sm:hidden" />
+          <img src="./image/slide-small.webp" class="block w-full 2xl:hidden xl:hidden lg:hidden md:block sm:block" />
+          <DIV class="2xl:absolute 2xl:flex 2xl:flex-col 2xl:w-1/3 2xl:justify-center 2xl:left-[100px] 2xl:mt-[0]
+          xl:absolute xl:flex xl:flex-col xl:w-1/3 xl:justify-center xl:left-[100px] xl:mt-[0]
+          
+          lg:absolute lg:flex lg:flex-col lg:w-1/4 lg:justify-center lg:left-[100px] lg:mt-[0]
+          
+          md:absolute md:flex md:flex-col md:w-1/3 md:justify-center md:left-[35%] md:top-[20%] ">
+            <img src="./image/WoW_DF_White_Logo.webp" alt="Diablo_IV_Logo">
+            <h1 class="text-[20px] text-white text-center mb-3"> Server Slam is live. Play free now! </h1>
+            <a href="#" class=" btn btn-primary bg-[#0074e0] hover:bg-[#47a6ff] hover:border-[#0074e0] hover:border-2 border-[#0074e0] px-2">  Learn More </a>
+          </DIV>
+
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-square ">❮</a> 
+            <a href="#slide3" class="btn btn-square ">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./image/slide-3.webp" class="w-full hidden 2xl:block  xl:block  lg:block md:hidden sm:hidden" />
+          
+          <img src="./image/slide-small-3.webp" class="w-full block 2xl:hidden xl:hidden lg:hidden md:block sm:block" />
+          <DIV class=" absolute flex flex-col w-1/3 justify-center left-[35%] top-[20%]
+          2xl:absolute 2xl:flex 2xl:flex-col 2xl:w-1/3 2xl:justify-center 2xl:left-[100px] 2xl:mt-[5%]
+          xl:absolute xl:flex xl:flex-col xl:w-1/3 xl:justify-center xl:left-[100px] xl:mt-[5%]
+          
+          lg:absolute lg:flex lg:flex-col lg:w-1/3 lg:justify-center lg:left-[100px] lg:mt-[5%]
+          
+          md:absolute md:flex md:flex-col md:w-1/3 md:justify-center md:left-[35%] md:top-[20%] 
+          sm:absolute sm:flex sm:flex-col sm:w-1/3 sm:justify-center sm:left-[35%] sm:top-[20%]">
+            <img src="./image/CODWZ2_S1-Bnet_Game-Game_Logo_Launcher-Vector_02_combo_logo_s.webp" alt="Diablo_IV_Logo">
+            <h1 class="text-[20px] text-white text-center mb-3">  Season 03 is Live. Get the all-new Black Cell pack  </h1>
+            <a href="#" class=" btn btn-primary bg-[#0074e0] hover:bg-[#47a6ff] hover:border-[#0074e0] hover:border-2 border-[#0074e0] px-2">   Buy Now  </a>
+          </DIV>
+
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-square ">❮</a> 
+            <a href="#slide4" class="btn btn-square ">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./image/slide-4.webp" class="w-full hidden 2xl:block  xl:block  lg:block  md:hidden sm:hidden" />
+          
+          <img src="./image/slide-small-4.webp" class="w-full block 2xl:hidden xl:hidden lg:hidden md:block sm:block" />
+          <DIV class="absolute flex flex-col w-1/3 justify-center left-[35%] top-[20%]
+          2xl:absolute 2xl:flex 2xl:flex-col 2xl:w-1/3 2xl:justify-center 2xl:left-[100px] 2xl:mt-[0]
+          xl:absolute xl:flex xl:flex-col xl:w-1/3 xl:justify-center xl:left-[100px] xl:mt-[0]
+          
+          lg:absolute lg:flex lg:flex-col lg:w-1/4 lg:justify-center lg:left-[100px] lg:mt-[0]
+          
+          md:absolute md:flex md:flex-col md:w-1/3 md:justify-center md:left-[35%] md:top-[20%]
+          sm:absolute sm:flex sm:flex-col sm:w-1/3 sm:justify-center smm:left-[35%] sm:top-[20%] ">
+            <img src="./image/WoW_Dragonflight_EN.webp" alt="Diablo_IV_Logo">
+            <h1 class="text-[20px] text-white text-center mb-3">  Save big on Dragonflight  </h1>
+            <a href="#" class=" btn btn-primary bg-[#0074e0] hover:bg-[#47a6ff] hover:border-[#0074e0] hover:border-2 border-[#0074e0] px-2">   Buy Now  </a>
+          </DIV>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-square ">❮</a> 
+            <a href="#slide1" class="btn btn-square  ">❯</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<!-- products: -->
+
+      <div class="flex flex-row m-7  font-bold text-[20px] dark:text-white mt-7 mb-7 top-[100px] relative ">
+        <h1 > Recommended </h1>
+      </div>
+      <div class="mt-7 mb-7 top-[100px] 
+      grid  grid-cols-1 relative w-[80%] mx-auto  gap-4  
+      2xl:grid  2xl:grid-cols-4 2xl:relative 2xl:w-[98%] 2xl:mx-auto  2xl:gap-4 2xl:mt-3
+      xl:grid  xl:grid-cols-4 xl:relative xl:w-[98%] xl:mx-auto  xl:gap-4 xl:mt-3
+      lg:grid  lg:grid-cols-3 lg:relative lg:w-[98%] lg:mx-auto  lg:gap-4 lg:mt-3
+      md:grid  md:grid-cols-2 md:relative md:w-[98%] md:mx-auto  md:gap-4 md:mt-3 
+      sm:grid  sm:grid-cols-2 sm:relative sm:w-[98%] sm:mx-auto  sm:gap-4   " >
+
+        <div class="card light:bg-red-700  dark:bg-[#2a303c] shadow-xl rounded-lg  max-with-sm cursor-pointer  hover:bg-[rgb(61,63,70)] overflow-hidden">
+          <div class="h-[200px] w-full ">
+
+            <figure><img class="h-[200px]" src="./image/shop-1.webp" alt="Shoes" /></figure>
+          </div>
+          <div class="card-body ">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Diablo IV</h5>
+              </div>
+            <h2 class="card-title dark:text-white">Diablo® IV: Ultimate Edition</h2>
+            <p class="text-warning">Play free during Server Slam weekend from May 12-14</p>
+            <h6>Action RPG</h6>
+            <!-- <span class="mt-3 text-white">$99.99</span> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">$29.99</span>
+              <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card  bg-base-100 shadow-xl rounded-lg  max-with-sm cursor-pointer hover:bg-[rgb(61,63,70)]overflow-hidden">        
+          <figure><img class="h-[200px]"  src="./image/shop-2.webp" alt="Shoes" /></figure>
+          <div class="card-body hover:bg-[rgb(61,63,70)]">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">World of Warcraft</h5>
+              </div>
+            <h2 class="card-title dark:text-white">World of Warcraft®: Dragonflight</h2>
+            <p class="text-warning">Play free during Server Slam weekend from May 12-14</p>
+            <h6>Massively Multiplayer RPG</h6>
+            <!-- <div class="flex flex-row flex-nowrap absolute inset-x-0 bottom-0  "> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="text-back-buy  my-auto">$29.99</span>
+              <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div>
+            </div>
+          </div>
+        </div>
+    
+
+
+
+        <div class="card  bg-base-100 shadow-xl max-with-sm rounded-lg relative cursor-pointer hover:bg-[rgb(61,63,70)] overflow-hidden">        
+          <figure><img class="h-[200px]"  src="./image/shop-3.webp" alt="Shoes" /></figure>
+          <div class="card-body hover:bg-[rgb(61,63,70)]">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Call of Duty: Modern Warfare II</h5>
+              </div>
+            <h2 class="card-title text-justify dark:text-white">Call of Duty®: Modern Warfare® II - Vault Edition</h2>
+            <p class="text-warning">Play Warzone™ 2.0 for free now.</p>
+            <h6>Action Shooter</h6>
+            <!-- <div class="flex flex-row flex-nowrap absolute inset-x-0 bottom-0  "> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">$99.99</span>
+              <!-- <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div> -->
+            </div>
+          </div>
+        </div>
+    
+
+
+
+
+        <div class="card  bg-base-100 shadow-xl rounded-lg  max-with-sm cursor-pointer hover:bg-[rgb(61,63,70)] overflow-hidden">
+          <div class="h-[200px] w-full ">
+
+            <figure><img class="h-[200px]" src="./image/shop-4.webp" alt="Shoes" /></figure>
+          </div>
+          <div class="card-body ">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Diablo IV</h5>
+              </div>
+            <h2 class="card-title dark:text-white">Diablo® IV: Ultimate Edition</h2>
+            <p class="text-warning">Play free during Server Slam weekend from May 12-14</p>
+            <h6>Action RPG</h6>
+            <!-- <span class="mt-3 text-white">$99.99</span> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">$29.99</span>
+              <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div>
+            </div>
+          </div>
+        </div>
+    
+
+
+        <div class="card  bg-base-100 shadow-xl max-with-sm rounded-lg relative cursor-pointer hover:bg-[rgb(61,63,70)] overflow-hidden">        
+          <figure><img class="w-[100%] h-[200px]"  src="./image/shop-5.webp" alt="Shoes" /></figure>
+          <div class="card-body hover:bg-[rgb(61,63,70)]">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Diablo II: Resurrected</h5>
+              </div>
+            <h2 class="card-title dark:text-white">Diablo II: Resurrected™</h2>
+            <p class="text-warning">Evil is Resurrected</p>
+            <h6>Action RPG</h6>
+            <!-- <div class="flex flex-row flex-nowrap absolute inset-x-0 bottom-0  "> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">$39.99</span>
+              <!-- <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div> -->
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card  bg-base-100 shadow-xl max-with-sm rounded-lg relative cursor-pointer hover:bg-[rgb(61,63,70)] overflow-hidden">        
+          <figure><img class="h-[200px]"  src="./image/shop-6.webp" alt="Shoes" /></figure>
+          <div class="card-body hover:bg-[rgb(61,63,70)]">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Call of Duty: Warzone 2</h5>
+              </div>
+            <h2 class="card-title dark:text-white">Call of Duty®: Warzone 2.0</h2>
+            <p class="text-warning">Free for everyone</p>
+            <h6>Free-To-Play Action Shooter</h6>
+            <!-- <div class="flex flex-row flex-nowrap absolute inset-x-0 bottom-0  "> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">Play For Free</span>
+              <!-- <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div> -->
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="card  bg-base-100 shadow-xl max-with-sm rounded-lg relative cursor-pointer hover:bg-[rgb(61,63,70)] overflow-hidden">        
+          <figure><img class="h-[200px]"  src="./image/shop-7.webp" alt="Shoes" /></figure>
+          <div class="card-body hover:bg-[rgb(61,63,70)]">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Call of Duty: Modern Warfare II</h5>
+              </div>
+            <h2 class="card-title dark:text-white">Call of Duty®: Modern Warfare® II - Vault Edition</h2>
+            <p class="text-warning">Play Warzone™ 2.0 for free now.</p>
+            <h6>Action Shooter</h6>
+            <!-- <div class="flex flex-row flex-nowrap absolute inset-x-0 bottom-0  "> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">$99.99</span>
+              <!-- <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div> -->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card  bg-base-100 shadow-xl max-with-sm rounded-lg relative cursor-pointer hover:bg-[rgb(61,63,70)] overflow-hidden">        
+          <figure><img class="w-[100%] h-[200px]"  src="./image/shop-8.webp" alt="Shoes" /></figure>
+          <div class="card-body hover:bg-[rgb(61,63,70)]">
+              <div class="flex flex-row flex-nowrap ">
+              <img src="./image/games-d4-colored.svg" class="w-[40px] h-[40px]  my-auto"></img>
+              <h5 class="my-auto dark:text-white">Call of Duty: Modern Warfare II</h5>
+              </div>
+            <h2 class="card-title text-justify dark:text-white">Call of Duty®: Modern Warfare® II - Vault Edition</h2>
+            <p class="text-warning">Play Warzone™ 2.0 for free now.</p>
+            <h6>Action Shooter</h6>
+            <!-- <div class="flex flex-row flex-nowrap absolute inset-x-0 bottom-0  "> -->
+            <div class="flex flex-row flex-nowrap  my-auto relative h-[30px]">
+              <span class="dark:text-white  my-auto">$99.99</span>
+              <!-- <span class="mx-2  my-auto"><del>From $49.99</del></span>
+              <div class="flex flex-row flex-nowrap my-auto absolute right-0 px-2 rounded-lg h-[30px]">
+                  <span class=" bg-back-buy text-black border-1 leading-[30px] my-auto rounded-lg py-0 h-[30px] px-2">-40%</span>
+                </div> -->
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+  
+
+
+<!-- downloade battle-->
+<div class=" mt-7 mb-7 top-[100px] relative w-full  p-5 border-t-2 border-b-2" style="background-image: url(./image/background.webp); background-position: center; background-size: cover;">
+  <div class=" flex flex-col  space-y-4 gap-y-4 justify-center py-20  items-center 
+  2xl:flex 2xl:flex-row 2xl:flex-nowrap 2xl:space-x-4 2xl:gap-x-4 2xl:justify-between 2xl:py-20 
+  xl:flex xl:flex-row xl:flex-nowrap xl:space-x-4 xl:gap-x-4 xl:justify-between xl:py-20 
+  lg:flex lg:flex-col  lg:space-y-4 lg:gap-y-4 lg:justify-center lg:py-20 lg:items-center
+  md:flex md:flex-col  md:space-y-4 md:gap-y-4 md:justify-center md:py-20 md:items-center
+  sm:flex sm:flex-col  sm:space-y-4 sm:gap-y-4 sm:justify-center sm:py-20 sm:items-center"  >
+<div class="title  text-[20px] px-4 flex flex-col text-white md:justify-center ">
+    <h1 class="text-[38px]">Download Battle.net</h1>
+    <div class="flex flex-row flex-nowrap gap-x-5 mt-5">
+        <span class="fa-solid fa-gamepad text-[#0074e0] my-auto"></span>
+        <span class="my-auto">Your games in one place</span>
+    </div>
+    
+    <div class="flex flex-row flex-nowrap gap-x-5 mt-3">
+
+      <span class="fa-solid fa-user-group text-[#0074e0] my-auto"></span>
+      <span class="my-auto">Connect with friends</span>
+    </div> 
+    <div class="flex flex-row flex-nowrap gap-x-5 mt-3">
+
+      <span class="fa-solid fa-gift text-[#0074e0] my-auto " ></span>
+      <span class="my-auto">Shop for digital games and goodies</span>
+    </div>
+
+
+    
+    <div class="flex 2x flex-row flex-nowrap gap-x-5 mt-7">
+      <a class="btn btn-primary bg-[#0074e0] hover:bg-[#47a6ff] hover:border-2 hover:border-[#0074e0]">Download for Windows 
+        <span class="fa-brands fa-windows mx-2"></span>
+      </a>
+      <a class="btn hover:border-[#595b61] hover:border-2 dark:bg-back-page border-2">Learn More</a>
+    </div>
+
+
+    <p class="mt-4">
+      Also available as a 
+      <a href="#" class="underline hover:text-[#0074e0]">mobile app</a>
+    </p>
+
+</div>
+<div class="hidden
+2xl:flex 2xl:flex-col  2xl:p-4 2xl:z-1 2xl:w-[20%]
+xl:flex xl:flex-col  xl:p-4 xl:z-1 xl:w-[20%]
+lg:hidden
+md:hidden sm:hidden">
+  <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 580.44" class="opacity-25">
+				<path d="M473.49,197.63c-75.94-35.11-185.08-57.42-287.78-49.11,5.15-34,17.85-57.69,38.7-62.68,28.69-6.88,60,12,89.84,46.35,19.55,2.53,42.73,7,58.86,10.71C318.7,40.56,245.72-16.8,190.21,4.36,148,20.47,126.39,78.59,129,156.69c-55,11.7-97.87,32.49-125.31,62.39-1.39,1.61-4.53,5.67-3.41,7.61.85,1.47,3.65-.18,4.85-1,31.83-22.26,72.58-34.31,125.66-41.89,7.56,83.32,42.81,189,101.36,273.78-32,12.56-58.89,13.39-73.64-2.17-20.29-21.41-19.61-57.95-4.77-101-7.58-18.2-15.31-40.51-20.15-56.34C72.12,396.41,58.93,488.29,105,525.78c35.07,28.52,96.18,18.15,162.54-23.12,37.64,41.79,77.07,68.51,116.69,77.33,2.09.39,7.17,1.09,8.29-.85.85-1.47-2-3.08-3.28-3.71-35.19-16.44-66-45.71-99.1-87.88C358.53,439.34,432.42,356,476.57,262.88c26.9,21.47,41,44.3,34.94,64.85-8.4,28.29-40.38,46-85.06,54.63C414.48,398,399,415.86,387.74,428c115.84,4,202-30.47,211.43-89.12,7.17-44.64-32.37-92.38-101.3-129.21,17.38-53.49,20.8-101,8.63-139.72-.71-2-2.64-6.76-4.88-6.76-1.7,0-1.68,3.26-1.58,4.7C503.41,106.55,493.47,147.88,473.49,197.63ZM260.21,444.33c-49-78.61-77.24-171.21-77.06-264.84h0C275.71,176.39,370,198.2,451,245.17h0c-43.59,81.71-109.64,152.49-190.82,199.15Z" fill="#148eff"></path>
+			</svg>
+</div>
+<div class="flex flex-col flex-nowrap my-auto 2xl:w-[500px] xl:w-[500px] lg:w-[90%] md:w-[100%] sm:w-[100%] space-x-8 flex-end "  >
+  <img class="w-[100%] " src="./image/phoenix_enus.png" alt="" >
+</div>
+</div>
+</div>
+
+<!-- app battle  -->
+
+
+<footer>
+
+<div class="mt-7 mb-7 top-[100px] relative flex flex-col flex-nowrap justify-center items-center  bg-base-300">
+  <div class="flex flex-row">
+    <div class="dropdown dropdown-top flex justify-center">
+      <label tabindex="0" class="btn m-1 ">
+        <span class="fa-solid fa-earth-americas mx-2 text-[#0074e0] "></span>
+        English (US)
+        <span class="fa-solid fa-chevron-up mx-2"></span>
+      </label>
+      <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 border ">
+       
+      <div class="flex flex-row  2xl:w-[600px]  xl:w-[600px]  lg:w-[600px]  md:w-[600px]  sm:w-[500px]  w-[400px]"  >
+        <div class="flex-col border-r">
+          <span>Region</span>
+          <ul>
+            <li class="hover:text-white"><a href="#">Americas & Southeast Asia</a></li>
+            <li class="hover:text-white"><a href="#">Europe</a></li>
+            <li class="hover:text-white"><a href="#">Korea</a></li>
+            <li class="hover:text-white"><a href="#">Taiwan</a></li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-2 ml-4">
+        <div class=" col-span-2 ...">
+          <span>Language</span>
+        </div>
+        <div class="... ">
+          <ul>
+            <li class="hover:text-white"><a href="#">English (US)</a></li>
+            <li class="hover:text-white"><a href="#">Español (Latino)</a></li>
+            <li class="hover:text-white"><a href="#">Português (Brasil)</a></li>
+            <li class="hover:text-white"><a href="#">ภาษาไทย</a></li>
+            <li class="hover:text-white"><a href="#">日本語</a></li>
+            <li class="hover:text-white"><a href="#">Deutsch</a></li>
+            <li class="hover:text-white"><a href="#">English (EU)</a></li>
+          </ul>
+        </div>
+        <div class="... ">
+          <ul>
+            <li class="hover:text-white"><a href="#">Español (EU)</a></li>
+            <li class="hover:text-white"><a href="#">Français</a></li>
+            <li class="hover:text-white"><a href="#">Italiano</a></li>
+            <li class="hover:text-white"><a href="#">Polski</a></li>
+            <li class="hover:text-white"><a href="#">Português (EU)</a></li>
+            <li class="hover:text-white"><a href="#">Русский</a></li>
+            <li class="hover:text-white"><a href="#">한국어</a></li>
+            <li class="hover:text-white"><a href="#">繁體中文</a></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex flex-row justify-center items-center mt-7  dark:text-white">
+    <svg class="w-[400px] dark:text-white " xmlns="http://www.w3.org/2000/svg" focusable="false" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" role="img" fill="currentColor" stroke-width="0" viewBox="0 0 196 32" aria-labelledby="blz-icon-title-battlenet-logo" part="icon blz-icon">
+      <title id="blz-icon-title-battlenet-logo">Battle.net</title>
+      <path fill="#148eff" d="M26.1931 11.8477C27.088 9.09269 27.2563 6.58059 26.6464 4.67728C26.6407 4.65986 26.6348 4.64192 26.629 4.62424C26.5924 4.52097 26.5014 4.30266 26.386 4.30266C26.2984 4.30266 26.2972 4.44878 26.3022 4.52306C26.304 4.53734 26.3058 4.55144 26.3075 4.56581C26.5019 6.26519 25.982 8.6902 24.937 11.229C22.7938 10.256 20.2196 9.47872 17.3645 9.0205C14.798 8.60826 12.3414 8.51726 10.1133 8.69926C10.3783 6.94651 11.0328 5.72755 12.1066 5.4704C13.5847 5.11651 15.1969 6.08868 16.7341 7.85798C16.9998 7.89432 17.2659 7.93379 17.5325 7.97641C18.291 8.09832 19.0355 8.24284 19.7661 8.40998C16.9634 3.13813 13.204 0.183488 10.3449 1.27417C8.16922 2.10353 7.05772 5.097 7.19017 9.12012C4.35684 9.72272 2.09718 10.833 0.753794 12.3128C0.741255 12.3266 0.728976 12.3405 0.716611 12.3544C0.645466 12.4377 0.50187 12.6256 0.559866 12.7256C0.603406 12.8014 0.730805 12.7294 0.792632 12.688C0.80404 12.6793 0.81536 12.6706 0.826942 12.6619C2.20151 11.6437 4.56156 10.8815 7.28265 10.5171C7.51159 12.8595 8.12594 15.4773 9.15636 18.1794C10.0825 20.608 11.232 22.7811 12.5037 24.6197C10.8532 25.2665 9.47046 25.3092 8.71086 24.5078C7.66528 23.4048 7.70072 21.5226 8.46477 19.3064C8.36341 19.0583 8.26451 18.8081 8.16809 18.5559C7.89436 17.8381 7.64729 17.1211 7.42686 16.405C4.26192 21.4681 3.58278 26.2012 5.95659 28.1321C7.76299 29.6015 10.9115 29.0674 14.3295 26.9414C16.268 29.0939 18.3593 30.4957 20.3125 30.9191C20.3307 30.9231 20.3489 30.9267 20.3672 30.9306C20.4749 30.9505 20.7094 30.9809 20.7671 30.8809C20.8107 30.805 20.685 30.7309 20.6182 30.698C20.6049 30.6925 20.592 30.687 20.5785 30.6812C19.0095 29.9999 17.1693 28.3372 15.493 26.1629C17.4073 24.7933 19.3672 22.9524 21.192 20.709C22.8323 18.6926 24.1393 16.6106 25.0957 14.59C26.4812 15.6959 27.2095 16.8721 26.8953 17.9307C26.4629 19.3877 24.8151 20.298 22.5139 20.7445C22.3497 20.9563 22.1824 21.167 22.0122 21.3766C21.5274 21.9726 21.03 22.5451 20.5198 23.0942C26.4869 23.3032 30.9253 21.5246 31.4106 18.5033C31.7801 16.2044 29.7434 13.745 26.1931 11.8477ZM21.0103 17.8736C18.9061 20.4605 16.283 22.663 13.9505 23.9364C13.0735 22.5271 12.2966 20.9986 11.7021 19.4397C10.5139 16.3239 9.91779 12.951 9.98145 10.2944C11.6403 10.2395 13.3526 10.3309 14.9999 10.5955C18.2922 11.1244 21.5112 12.2946 23.7801 13.6782C22.9981 15.1423 22.0635 16.5794 21.0103 17.8738V17.8736Z">
+      </path>
+      <path d="M75.3276 22.603L68.9716 9.91549C68.6538 9.30433 68.0182 8.9132 67.3337 8.9132H64.0335C63.349 8.9132 62.7134 9.30433 62.3956 9.91549L56.0886 22.603C55.9663 22.823 56.1374 23.0919 56.3819 23.0919H59.2177C59.4132 23.0919 59.5599 22.9941 59.6332 22.8475L61.0267 20.0606H70.3895L71.7829 22.8475C71.8563 23.0186 72.0029 23.0919 72.1985 23.0919H75.0343C75.2543 23.0919 75.401 22.823 75.3276 22.603ZM62.4201 17.2493L65.0603 11.9445C65.1336 11.8223 65.2558 11.7489 65.3781 11.7489H66.0381C66.1848 11.7489 66.307 11.8223 66.3559 11.9445L68.9961 17.2493H62.4201ZM195.676 9.25544V11.4067C195.676 11.5778 195.529 11.7489 195.333 11.7489H189.613V24.6076C189.613 24.8276 189.369 24.9254 189.222 24.8031L186.386 22.383C186.166 22.1874 186.044 21.9185 186.044 21.6496V11.7489H181.448C181.204 11.7489 180.959 11.6023 180.837 11.3578L179.737 9.15766C179.688 9.03543 179.761 8.9132 179.883 8.9132H195.284C195.504 8.9132 195.676 9.08432 195.676 9.25544ZM164.996 11.9934V14.6091H175.434C176.217 14.6091 176.852 15.2447 176.852 16.027C176.852 16.8093 176.217 17.4449 175.434 17.4449H164.996V19.4006C164.996 19.8895 165.411 20.3051 165.9 20.3051H177.659C177.83 20.3051 178.001 20.4517 178.001 20.6473V22.7986C178.001 22.9697 177.83 23.1408 177.659 23.1408H164.947C162.942 23.1408 161.329 21.5029 161.329 19.5228V10.7467C161.329 9.74436 162.136 8.93764 163.138 8.93764H177.659C177.83 8.93764 178.001 9.08432 178.001 9.27989V11.4311C178.001 11.6023 177.83 11.7734 177.659 11.7734H165.216C165.069 11.7489 164.996 11.8467 164.996 11.9934ZM158.249 9.35323V21.7963C158.249 23.2875 156.513 24.1187 155.34 23.1408L144.363 13.8269V22.6763C144.363 22.9208 144.168 23.1164 143.923 23.1164H141.161C140.916 23.1164 140.696 22.9208 140.696 22.6763V10.2577C140.696 8.76652 142.432 7.93535 143.605 8.9132L154.582 18.2272V9.37767C154.582 9.13321 154.777 8.9132 155.022 8.9132H157.784C158.102 8.9132 158.249 9.13321 158.249 9.35323ZM124.049 11.9934V14.6091H131.334C132.116 14.6091 132.751 15.2447 132.751 16.027C132.751 16.8093 132.116 17.4449 131.334 17.4449H124.073V19.4006C124.073 19.8895 124.489 20.3051 124.978 20.3051H136.736C136.907 20.3051 137.078 20.4517 137.078 20.6473V22.7986C137.078 22.9697 136.932 23.1408 136.736 23.1408H124.024C122.02 23.1408 120.406 21.5029 120.406 19.5228V10.7467C120.406 9.74436 121.213 8.93764 122.215 8.93764H136.736C136.907 8.93764 137.078 9.08432 137.078 9.27989V11.4311C137.078 11.6023 136.932 11.7734 136.736 11.7734H124.293C124.146 11.7489 124.049 11.8467 124.049 11.9934ZM118.866 20.5984V22.7497C118.866 22.9208 118.719 23.0919 118.524 23.0919H108.305C106.301 23.0919 104.687 21.454 104.687 19.4739V9.25544C104.687 9.08432 104.834 8.9132 105.03 8.9132H108.036C108.208 8.9132 108.379 9.05987 108.379 9.25544V19.3517C108.379 19.8406 108.794 20.2562 109.283 20.2562H118.524C118.744 20.2562 118.866 20.4273 118.866 20.5984ZM102.781 9.25544V11.4067C102.781 11.5778 102.634 11.7489 102.438 11.7489H97.1091V24.6076C97.1091 24.8276 96.8646 24.9254 96.7179 24.8031L93.8577 22.3585C93.6377 22.163 93.5155 21.8941 93.5155 21.6007V11.7245H90.0197C89.7752 11.7245 89.5308 11.5778 89.4085 11.3334L88.3085 9.13321C88.2596 9.03543 88.3329 8.9132 88.4796 8.9132H102.438C102.609 8.9132 102.781 9.05987 102.781 9.25544ZM52.1772 15.8559C52.8372 15.6114 54.1818 14.9758 54.1818 13.1668C54.1818 10.0622 51.8838 8.9132 49.1459 8.9132H38.5852C38.4385 8.9132 38.2429 9.05987 38.2429 9.25544V22.7497C38.2429 22.9208 38.3896 23.0919 38.5852 23.0919H50.466C52.2016 23.0675 54.6951 22.0896 54.6951 18.8872C54.7196 16.8826 52.9106 16.0515 52.1772 15.8559ZM41.8854 11.969C41.8854 11.8223 41.9832 11.7489 42.1054 11.7489H48.6081C49.2925 11.7489 50.7838 11.7489 50.7838 13.1668C50.7838 14.5847 49.2681 14.5847 48.6081 14.5847H41.8854V11.969ZM49.3903 20.2317H42.1054C41.9587 20.2317 41.8854 20.1339 41.8854 20.0117V17.4204H49.4148C50.1482 17.4204 51.3216 17.4204 51.3216 18.8383C51.3216 20.2806 49.977 20.2317 49.3903 20.2317ZM86.5484 9.25544V11.4067C86.5484 11.5778 86.4017 11.7489 86.2061 11.7489H82.0258V24.6076C82.0258 24.8276 81.7814 24.9254 81.6347 24.8031L78.7745 22.3585C78.5545 22.163 78.4323 21.8941 78.4323 21.6252V11.7245H73.8853C73.6408 11.7245 73.3964 11.5778 73.2741 11.3334L72.1741 9.13321C72.1496 9.03543 72.223 8.9132 72.3452 8.9132H86.2061C86.3528 8.9132 86.5484 9.05987 86.5484 9.25544Z">
+      </path>
+      <path fill="#148eff" d="M134.805 16.0029C134.805 15.025 135.587 14.2183 136.589 14.2183C137.567 14.2183 138.374 15.025 138.374 16.0029C138.374 16.9807 137.592 17.7875 136.589 17.7875C135.611 17.7875 134.805 17.0052 134.805 16.0029Z">
+      </path>
+    </svg>
+
+  </div>
+
+<div class="flex flex-row flex-wrap gap-x-4 mt-7 justify-center text-[18px] items-center">
+  <div class="hover:text-white cursor-pointer "><a href="#" >Careers</a></div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer  "><a href="#"></a>About</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>Support</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>Contact Us</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>Press</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>API</div>
+</div>
+
+
+<div class="flex flex-row  mt-7 justify-center text-[12px] items-center">
+<span>All games, one app:</span>
+<img src="./image/bnet-logo-01.svg" alt="">
+<a href="#" class="underline text-[#0074e0] hover:text-[#47a6ff]">Battle.net Desktop App</a>
+
+</div>
+
+
+<div class="flex flex-row flex-wrap mt-7 justify-center text-[11px] items-center">
+  <span>
+    ©2023 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.
+  </span>
+</div>
+
+<div class="flex flex-row flex-wrap justify-center text-[11px] items-center ">
+  <span>All</span>
+  <a href="#" class="underline font-bold mx-2"> trademarks</a>
+  <span>referenced herein are the properties of their respective owners.</span>
+</div>
+
+
+<div class="flex flex-row flex-wrap gap-x-4 mt-2 justify-center text-[11px] items-center p-5" >
+  <div class="hover:text-white cursor-pointer "><a href="#" >PRIVACY</a></div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer  "><a href="#"></a>LEGAL</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>TERMS</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>COOKIE POLICY</div>
+  <div class="w-[1px] h-[15px] mx-2 bg-[#666666]"></div>
+  <div class="hover:text-white cursor-pointer "><a href="#"></a>COOKIE SETTINGS</div>
+  
+</div>
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+<a href="#top" class="top fixed right-2 bottom-3  p-4 border  hover:border-2 border-white cursor-pointer ">
+ <span class="fa fa-chevron-up"></span>
+</a>
+
+
+
+
+
+
+
+
+
+
+<script src="./js/main.js"></script>
+<script>
+
+
+
+
+document.querySelector("div.menu-small>span").addEventListener("click",function(){
+                document.querySelector("div.menufullwidth").classList.toggle("active")
+                document.querySelector("div.submenu").classList.toggle("active_submenu")
+                this.classList.toggle("fa-close")
+  })
+
+  document.querySelector("div.user_small>span").addEventListener("click",function(){
+                document.querySelector("div.menufullwidth").classList.toggle("active")
+                document.querySelector("div.acc_user").classList.toggle("active_account")
+                this.classList.toggle("fa-close")
+  })
+
+
+var autoclose = true; // Close open accordion when another accordion is clicked
+
+// Add click event to accordion heading 
+var elements = document.getElementsByClassName("accordion-headsection");
+console.log(elements);
+for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener('click', accordionFun, false);
+}
+
+function accordionFun(evt) {
+
+      // clicked element
+      var el = evt.currentTarget;
+
+      // Read clicked accordion head content section
+      var contentEl = el.nextElementSibling;
+      var content_id = contentEl.getAttribute('id');
+
+      // Auto close other opened accordion if autoclose=true
+      if(autoclose){
+
+           // Read all elements that has class - accordion-content
+           var elements = document.getElementsByClassName("accordion-content");
+           for (var i = 0; i < elements.length; i++) {
+                if(elements[i].getAttribute('id') != content_id){
+
+                     // Add/Remove class from accordion content
+                     elements[i].classList.remove('show-content');
+                     elements[i].classList.add('hide-content');
+
+                     // Remove active class from accordion head
+                     elements[i].previousElementSibling.classList.remove("active");
+                } 
+           }
+      }
+
+      // Toggle clicked accordion classes
+      if(contentEl.classList.contains('hide-content')){
+
+           // Add/Remove class from accordion content
+           contentEl.classList.remove('hide-content');
+           contentEl.classList.add('show-content');
+
+           // Add active class to clicked accordion head
+           el.classList.add("active");
+      }else{
+
+           // Add/Remove class from accordion content
+           contentEl.classList.remove('show-content');
+           contentEl.classList.add('hide-content');
+
+           // Remove active class from clicked accordion head
+           el.classList.remove("active");
+      }
+
+}
+
+
+
+
+    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+
+
+    document.querySelector("button.dark").addEventListener("click",function(){
+        document.firstElementChild.classList.add("dark")
+    })
+
+
+    // document.querySelector("button.account").addEventListener("click",function(){
+    //     console.log()
+    // })
+
+        document.querySelector("button.dark").addEventListener("click",function(){
+            document.firstElementChild.setAttribute("data-theme","dark")
+                // this.classList.toggle("fa-regular")
+                // this.classList.toggle("fa")
+                // this.classList.toggle("fa-sun")
+                // this.classList.toggle("fa-solid")
+                // this.classList.toggle("fa-moon")
+        })
+        document.querySelector("button.light").addEventListener("click",function(){
+            document.firstElementChild.setAttribute("data-theme","light")
+                // this.classList.toggle("fa-regular")
+                // this.classList.toggle("fa")
+                // this.classList.toggle("fa-sun")
+                // this.classList.toggle("fa-solid")
+                // this.classList.toggle("fa-moon")
+        })
+
+
+
+
+        
+        document.querySelector("a.search-btn").addEventListener("click",function(){
+
+          // <i class="fa-solid fa-xmark"></i>
+                // document.querySelector("div.back-searchfullwidth").classList.toggle("active")
+                // document.querySelector("div.searchfullwidth").classList.toggle("active")
+                
+                document.querySelector("div.back-search").classList.toggle("active")
+                document.querySelector("div.big-menu").classList.toggle("hide")
+                document.querySelector("a.search-btn>span").classList.toggle("fa-close")
+                // this.classList.remove("fa-light")
+                // this.classList.remove("fa-search")
+                // this.classList.toggle("fa-solid")
+                // this.classList.toggle("fa-xmark")
+                // this.classList.remove("fa-briefcase-blank")
+                // this.classList.add("fa")
+                // this.classList.add("fa-briefcase-blank")
+
+        } )   
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: rubik;
+    /* src: url(../font/blizzard-700-normal.woff); */
+    src: url('../font/Rubik-VariableFont_wght.ttf');
+}
+html,body{
+    font-family: 'rubik';
+}
+.active{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+
+
+.accordion{
+    width:70%;
+    margin:0 auto;
+}
+
+/* accord ion heading */
+.accordion .accordion-headsection{
+    width: 100%;
+    font-size:20px;
+    margin-bottom:3px;
+    margin-top:2px;
+    /* background-color:#F2F3F4; */
+    padding: 10px;
+    border-radius:5px;
+}
+.accordion .accordion-headsection:hover{
+    cursor:pointer;
+    /* background: #D7DBDD; */
+}
+
+/* accordion section content */
+.accordion .accordion-content{
+     padding:10px;
+    /*height:150px;
+    */line-height:20px;
+    /* border:1px solid gray; */
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+
+.accordion .active{
+    background: #2a303c;
+}
+.active_submenu{
+    left: 0 !important;
+    z-index: 99999 !important;
+}
+
+.active_account{
+    right: 0 !important;
+    z-index: 99999 !important;
+}
+
+.hide-content{
+    display: none;
+}
+.show-content{
+    display: block !important;
+}

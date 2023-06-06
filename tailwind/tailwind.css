@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @layer components{
+    .menu{
+        @apply xxl:font-[rubik] xxl:w-full xxl:h-[70px] xxl:bg-[rgb(35,37,43)] xxl:flex xxl:flex-row xxl:flex-wrap xxl:justify-between xxl:mt-3 xxl:dark:bg-black xxl:dark:text-white xxl:px-5 ;
+    }
+} */
