@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fatemeh kalhor - battle.net</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./icon/css/all.css">
 </head>
-<body class="dark">
+<body >
 <a href id="top"></a>
   <!-- select theme site   -->
   <div  class="theme_site relative dark:bg-[#23252B] acid:bg-[red]  h-[50px] w-[100%]  z-[200000] ">
@@ -26,7 +26,7 @@
 
 <header>
   <!-- menu: logo and downloade & suport & account -->
-      <div class="relative z-[200000] light:bg-[rgb(35,37,43)] dark:bg-[#23252B]">
+      <div class="relative z-[200000] bg-[rgb(35,37,43)] dark:bg-[#23252B]">
         <div class="menu fixed font-[rubik] w-full h-[70px] bg-base-300 light:bg-[rgb(35,37,43)] dark:bg-[#23252B]  flex flex-row flex-wrap justify-between  dark:text-white px-5  ">
                   <div class="menu-small 2xl:hidden xl:hidden lg:hidden md:block sm:block  block my-auto">
                     <span class="fa-solid fa-bars my-auto cursor-pointer text-[25px]"  ></span>
@@ -1870,9 +1870,16 @@ md:hidden sm:hidden">
   <h1>test dark bg</h1>
 </div> -->
 
+<!-- <div class="w-[30%] h-[auto] light:bg-[lightgray] p-[50px] mx-[auto] mt-10  dark:bg-[#2b2b2b] dark:text-white">
+  <h1 class="text-center">hello</h1>
+  <p class="text-justify mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis dolore pariatur exercitationem soluta laborum sunt ipsa est aspernatur deleniti tempora repellendus molestias eligendi, asperiores adipisci, totam, laboriosam modi quae veniam!</p>
+  <a href="#" class="block w-[150px] h-[40px] no-underline light:bg-[green] light:text-black leading-[40px] capitalize dark:text-white text-center dark:bg-[red]">read me</a>
+</div> -->
 
 
 </footer>
+
+
 
 
 
@@ -1973,38 +1980,47 @@ function accordionFun(evt) {
 
 
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-    } else {
-        document.documentElement.classList.remove('dark')
-    }
+    // if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    //     document.documentElement.classList.add('dark');
+    // } else {
+    //     document.documentElement.classList.remove('dark')
+    // }
 
 
-    document.querySelector("button.dark").addEventListener("click",function(){
-        document.firstElementChild.classList.add("dark")
-    })
+    // document.querySelector("button.dark").addEventListener("click",function(){
+    //     document.firstElementChild.classList.add("dark")
+    // })
+    
+    // document.querySelector("button.light").addEventListener("click",function(){
+    //     document.firstElementChild.classList.remove("dark")
+    // })
+    
+    // document.querySelector("button.dark").addEventListener("click",function(){
+    //         document.firstElementChild.classList.toggle("dark")
+    //     })
 
 
     // document.querySelector("button.account").addEventListener("click",function(){
     //     console.log()
     // })
+                // this.classList.toggle("fa-regular")
+                // this.classList.toggle("fa")
+                // this.classList.toggle("fa-sun")
+                // this.classList.toggle("fa-solid")
+                // this.classList.toggle("fa-moon")
 
         document.querySelector("button.dark").addEventListener("click",function(){
             document.firstElementChild.setAttribute("data-theme","dark")
-                // this.classList.toggle("fa-regular")
-                // this.classList.toggle("fa")
-                // this.classList.toggle("fa-sun")
-                // this.classList.toggle("fa-solid")
-                // this.classList.toggle("fa-moon")
+
         })
         document.querySelector("button.light").addEventListener("click",function(){
             document.firstElementChild.setAttribute("data-theme","light")
-                // this.classList.toggle("fa-regular")
-                // this.classList.toggle("fa")
-                // this.classList.toggle("fa-sun")
-                // this.classList.toggle("fa-solid")
-                // this.classList.toggle("fa-moon")
         })
+        
+        // document.querySelector("button.light").addEventListener("click",function(){
+        //     document.firstElementChild.getAttribute("data-theme","dark")
+            
+        // })
 
 
 
